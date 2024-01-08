@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Hello guys I have built this simple blog application using Next js,Mongo db,cloudinary,Nextauth and additional technologies 
+
+## The site is deployed using vercel on link below please do consider checking it out 
+
+# Live Demo - https://blog-app-brown-seven.vercel.app/
+
 ## Getting Started
 
 First, run the development server:
