@@ -29,7 +29,7 @@ const Edit = (ctx) => {
             setCategory(blog.category)
         }
         fetchBlog()
-    }, [])
+    })
 
     if (status === 'loading') {
         return <p>Loading...</p>

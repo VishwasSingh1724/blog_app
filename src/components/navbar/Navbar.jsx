@@ -28,7 +28,7 @@ const Navbar = () => {
             session?.user
               ? (
                 <div>
-                  <Image onClick={handleShowDropdown} src={person} width='45' height='45' />
+                  <Image onClick={handleShowDropdown} src={person} width='45' height='45' alt="handleShowDropdown"/>
                   {showDropdown && (
                     <div className={classes.dropdown}>
                       <AiOutlineClose className={classes.closeIcon} onClick={handleHideDropdown} />

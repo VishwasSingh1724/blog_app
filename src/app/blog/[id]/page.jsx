@@ -32,7 +32,7 @@ const BlogDetails = (ctx) => {
         setComments(comments)
       }
       fetchComments()
-    }, [])
+    })
 
 
     useEffect(() => {
@@ -129,7 +129,7 @@ const BlogDetails = (ctx) => {
     return (
         <div className={classes.container}>
             <div className={classes.wrapper}>
-                <Image src={blogDetails?.imageUrl} width='750' height='650' />
+                <Image src={blogDetails?.imageUrl} width='750' height='650' alt="blogdetails" />
                 <div className={classes.row}>
                     <h3 className={classes.title}>{blogDetails?.title}</h3>
                     {
@@ -167,7 +167,7 @@ const BlogDetails = (ctx) => {
                 </div>
                 <div className={classes.commentSection}>
                     <div className={classes.commentInput}>
-                        <Image src={person} width='45' height='45' alt="" />
+                        <Image src={person} width='45' height='45' alt="person" />
                         <input value={commentText} type="text" placeholder='Type message...' onChange={(e) => setCommentText(e.target.value)}/>
                         <button onClick={handleComment}>Post</button>
                     </div>
